@@ -1,12 +1,12 @@
 body{
     background-color: black;
-    color: white;
     font-family: Bai Jamjuree;
+    color: white;
 }
 
 footer {
-    background-color: blueviolet;
-    color: white;
+    background-color: rgb(117, 109, 109);
+    color: rgb(0, 0, 0);
     position: fixed;
     bottom: 0;
     width: 100%;
