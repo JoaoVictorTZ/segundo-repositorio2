@@ -1,7 +1,13 @@
+:root {
+    --text-color: black;
+    --card-front-color: crimson;
+    --card-back-color: snow;
+}
+
+
 body{
-    background-color: black;
+    background: url(img/bg-desktop.webp);
     font-family: Bai Jamjuree;
-    color: white;
 }
 
 #container {
@@ -19,16 +25,28 @@ body{
 .cartao__conteudo{
     text-align: center;
     height: 100%;
+    background-color: var(--card-back-color);
 }
 
 .cartao__conteudo h3 {
-    background-color: snow;
     text-align: left;
     padding: 0.5rem;
     position: absolute;
     margin: 0.6%;
     border-radius: 0.7rem;
     font-size: 1vw;
+    color: var(--text-color);
+    border: 1px solid var(--card-front-color);
+}
+
+.cartao__conteudo__pergunta p {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.cartao__conteudo__respota p {
+    color: var(--card-back-color);
+    font-weight: 700;
 }
 
 footer {
