@@ -45,7 +45,7 @@ body{
 }
 
 .cartao__conteudo__respota p {
-    color: var(--card-back-color);
+    color: var(--text-color);
     font-weight: 700;
 }
 
