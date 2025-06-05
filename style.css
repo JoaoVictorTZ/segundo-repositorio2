@@ -28,7 +28,7 @@ body {
 .cartao__conteudo {
     text-align: center;
     height: 100%;
-    background-color: var(--card-back-color);
+    background-color: powderblue;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
 }
