@@ -26,5 +26,4 @@ criaCartao(
     'TESTE',
     'Pergunta teste',
     'Resposta Teste'
-    
 )
